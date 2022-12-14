@@ -1,0 +1,12 @@
+:root{
+  --body-color: #E4E9F7;
+  --nav-color: #ebb840;
+  --side-nav: #010718;
+  --text-color: #FFF;
+  --search-bar: #F2F2F2;
+  --search-text: #010718;
+}
+
+body {
+  background-color: #f66000;
+}

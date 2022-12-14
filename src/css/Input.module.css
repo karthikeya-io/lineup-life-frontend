@@ -1,0 +1,17 @@
+.input {
+    font-size: larger;
+    border-radius: 12px;
+    height: 40px;
+    border-style: dotted;
+    border-width: 5px;
+    width: 250px;
+    padding: 5px;
+}
+.input:focus {
+    outline: none;
+    border-style: dashed;
+    border-color: #bf3900;
+}
+.form {
+    display: inline-block;
+}
