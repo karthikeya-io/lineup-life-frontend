@@ -1,17 +1,29 @@
 .input {
     font-size: larger;
-    border-radius: 12px;
-    height: 40px;
-    border-style: dotted;
-    border-width: 5px;
-    width: 250px;
+    border-radius: 8px;
+    height: 30px;
+    border-width: 3px;
+    width: 60%;
     padding: 5px;
+    background-color: white;
+    color: black;
 }
 .input:focus {
-    outline: none;
-    border-style: dashed;
-    border-color: #bf3900;
+    outline-color: #6A1B4D;
 }
 .form {
     display: inline-block;
+    width: 100%;
+}
+
+.button {
+    width: 25%;
+    margin-left: auto;
+    display:inline-block;
+}
+
+@media (max-width: 790px) {
+    .input {
+        width:60%;
+    }
 }

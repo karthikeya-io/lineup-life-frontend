@@ -1,23 +1,23 @@
 .button {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 24px;
+    font-size: larger;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #bf3900;
+    background-color: green;
     border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+    border-radius: 8px;
+    box-shadow: 0 6px #999;
     margin-left: 15px;
   }
   
-  .button:hover {background-color: #e8642c}
+  .button:hover {background-color: #242B2E}
   
   .button:active {
-    background-color: #e8642c;
-    box-shadow: 0 5px #666;
+    background-color: #0D0D0D;
+    box-shadow: 0 3px #666;
     transform: translateY(4px);
   }

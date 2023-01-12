@@ -1,9 +1,9 @@
 import React from 'react'
 import classes from '../css/ButtonPeffect.module.css'
 
-const ButtonPeffect = () => {
+const ButtonPeffect = ({name}) => {
   return (
-    <button className={classes.button}>Add</button>
+    <button type='submit' className={classes.button}>{name || "Add"}</button>
   )
 }
 

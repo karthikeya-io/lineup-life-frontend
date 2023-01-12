@@ -1,13 +1,15 @@
 .grid {
     display: grid;
     margin: 75px 10px 10px 10px;
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns: 28% 28% 40%;
+    gap: 20px;
 }
 
 @media (max-width: 790px) {
     .grid {
         display: grid;
-        margin: 95px 10px 10px 10px;
+        margin: 95px 30px 10px 0px;
         grid-template-columns: 100%;
+        gap: 20px;
     }
 }

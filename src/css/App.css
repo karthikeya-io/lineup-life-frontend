@@ -1,12 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
 :root{
   --body-color: #E4E9F7;
-  --nav-color: #ebb840;
+  --nav-color: #242B2E;
   --side-nav: #010718;
   --text-color: #FFF;
   --search-bar: #F2F2F2;
   --search-text: #010718;
 }
 
+* {
+  font-family: 'Comic Neue', sans-serif;
+  color: white;
+}
+
 body {
-  background-color: #f66000;
+  background-color: #0D0D0D;
+}
+
+.center {
+  width: 85px;
+  height: 50px;
+  
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  margin: auto;
+  color: white;
+}
+
+.center button {
+  width: 80px;
+  height: 50px;
+  font-size: larger;
+  background-color: #242B2E;
+  color: white;
+}
+
+.center button:hover {
+  cursor: pointer;
+  background-color: gray;
+  border-radius: 4px;
 }

@@ -1,0 +1,72 @@
+.loading {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.notesMainBody {
+    height: 80vh;
+    width: 91%;
+    border-radius: 15px;
+    background-color: #242B2E;
+    padding: 20px;
+    margin: 10px;
+    overflow-y: auto;
+}
+
+.dayStart, .dayEnd {
+    font-size: larger;
+    padding: 10px;
+    resize:none;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: gray;
+
+}
+
+/* .calendarDiv {
+    background-color: #242B2E;
+} */
+
+.ecalendar {
+    background-color: #242B2E;
+    margin-bottom: 20px;
+    width: auto;
+    font-size: smaller;
+    border-radius: 15px;
+}
+
+
+
+.dayStart:focus, .dayEnd:focus {
+    outline: none;
+    border-style: dashed;
+    border-color: #6A1B4D;
+}
+
+/* .formStart {
+    float: left;
+    width: 45%;
+} */
+
+
+.dayEnd, .dayStart {
+    height: 210px;
+    width: 95%;
+    color: black;
+
+}
+/* 
+.formEnd {
+    float: right;
+    width: 45%;
+} */
+ 
+/* .endBtn {
+    display: block;
+} */
+

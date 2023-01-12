@@ -1,0 +1,64 @@
+.expInputDiv {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: auto;
+    padding-bottom: 9px;
+}
+
+.expenditureList {
+    margin: 30px 20px 20px 20px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 50vh;
+    padding-right: 5px;
+}
+
+
+.expInput {
+    padding: 4px;
+    margin: 5px;
+    width: 57%;
+    font-size: larger;
+    border-radius: 8px;
+    border-color: grey;
+    color: black;
+}
+.expInputDiv [type=text]{
+    height: 30px;
+}
+
+.expInput:focus, .expCategory:focus {
+    outline-color: #6A1B4D;
+}
+
+.expCategory {
+    margin: 5px;
+    width: 30%;
+    font-size: larger;
+    margin-left: 10px;
+    border-radius: 8px;
+    border-color: grey;
+    color: black;
+}
+
+.expCategory option {
+    background-color: #242B2E;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .th, .td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  .break {
+    overflow-wrap: anywhere;
+  }
+  
+  .tr:nth-child(even) {background-color: #f2f2f2;}
+  .tr:nth-child(even) .td { color: #242B2E;}
