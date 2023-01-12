@@ -14,7 +14,7 @@ Is anyone else finding it hard to keep track of days? Here is an app to track al
 After installing npm run `npm i` command in project root directory wher package.json file to install dependencies
 
 ### config
-Upade the app.js firebase config with your own firebase project
+Upade the firebase config in app.js with your own firebase project
 
 ### Run
 Run `npm start` to run the server
