@@ -11,10 +11,11 @@ Is anyone else finding it hard to keep track of days? Here is an app to track al
 - npm
 
 ### Installing
-After installing npm run `npm i` command in project root directory wher package.json file to install dependencies
+After installing npm,
+run `npm i` command in project root directory wher package.json file to install dependencies
 
 ### config
-Upade the firebase config in app.js with your own firebase project
+Update the firebase config in app.js with your own firebase project
 
 ### Run
 Run `npm start` to run the server
