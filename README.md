@@ -3,7 +3,8 @@
 ## Description
 Is anyone else finding it hard to keep track of days? Here is an app to track all your daily todos,  journaling, and expenditures.
 
-![](/readme_resources/demoGif.gif)
+![demoGif](https://github.com/karthikeya-io/lineup-life-frontend/assets/82776409/d9f4e963-70ee-43ea-9dbc-61078822e1c6)
+
 
 ## Getting Started
 
